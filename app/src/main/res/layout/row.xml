@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CardStyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/CardTextViewLabelStyle"
+                android:text="@string/label_name" />
+
+            <TextView
+                style="@style/CardTextViewLabelStyle"
+                android:text="@string/label_phone" />
+
+            <TextView
+                style="@style/CardTextViewLabelStyle"
+                android:text="@string/label_email" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameText"
+                style="@style/CardTextViewValuesStyle" />
+
+            <TextView
+                android:id="@+id/phoneText"
+                style="@style/CardTextViewValuesStyle" />
+
+            <TextView
+                android:id="@+id/emailText"
+                style="@style/CardTextViewValuesStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

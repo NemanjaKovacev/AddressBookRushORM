@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        style="@style/DialogEditTextLayout"
+        android:layout_marginTop="@dimen/widget_margin">
+
+        <EditText
+            android:id="@+id/nameEditText"
+            style="@style/DialogEditText"
+            android:hint="@string/name"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout style="@style/DialogEditTextLayout">
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            style="@style/DialogEditText"
+            android:hint="@string/phone"
+            android:inputType="phone" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout style="@style/DialogEditTextLayout">
+
+        <EditText
+            android:id="@+id/emailEditText"
+            style="@style/DialogEditText"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        style="@style/DialogButton"
+        android:text="@string/save" />
+
+</LinearLayout>
+

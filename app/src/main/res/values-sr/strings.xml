@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imenik RushORM</string>
+    <string name="name">Ime</string>
+    <string name="phone">Telefon</string>
+    <string name="email">Email</string>
+    <string name="save">Save</string>
+    <string name="label_name">Ime:</string>
+    <string name="label_phone">Telefon:</string>
+    <string name="label_email">Email:</string>
+    <string name="edit">Izmeni</string>
+    <string name="delete">Obriši</string>
+    <string name="contact_add">DODAJ KONTAKT</string>
+    <string name="contact_edit">IZMENI KONTAKT</string>
+    <string name="toast_contact_added">Kontakt je dodat</string>
+    <string name="toast_contact_edited">Kontakt je izmenjen</string>
+    <string name="toast_contact_deleted">Kontakt je obrisan</string>
+</resources>
